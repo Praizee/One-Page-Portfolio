@@ -60,6 +60,7 @@ p {
 	color: white;
 	background-color: transparent;
 	border: 2px solid #78A0CF;
+	border-radius: 10px;
 	font-size: 2rem;
 	text-transform: uppercase;
 	letter-spacing: 0.1rem;
@@ -632,11 +633,13 @@ p {
 	50% {
 		width: 100%;
 		left: 0;
+		border-radius: 15px;
 	}
 
 	100% {
 		width: 0;
 		left: 100%;
+		border-radius: 15px;
 	}
 }
 
