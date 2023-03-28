@@ -451,6 +451,7 @@ p {
 
 #gallery .project-img img {
 	transition: 0.3s ease transform;
+	/* object-fit: 20; */
 }
 
 #gallery .project-item:hover .project-img img {
