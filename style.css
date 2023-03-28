@@ -374,26 +374,26 @@ p {
 
 /* End Services Section */
 
-/* Projects section */
-#projects .projects {
+/* gallery section */
+#gallery .gallery {
 	flex-direction: column;
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 100px 0;
 }
 
-#projects .projects-header h1 {
+#gallery .gallery-header h1 {
 	margin-bottom: 50px;
 }
 
-#projects .all-projects {
+#gallery .all-gallery {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 }
 
-#projects .project-item {
+#gallery .project-item {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -404,7 +404,7 @@ p {
 	border-radius: 10px;
 }
 
-#projects .project-info {
+#gallery .project-info {
 	padding: 30px;
 	flex-basis: 50%;
 	height: 100%;
@@ -416,29 +416,29 @@ p {
 	color: white;
 }
 
-#projects .project-info h1 {
+#gallery .project-info h1 {
 	font-size: 4rem;
 	font-weight: 500;
 }
 
-#projects .project-info h2 {
+#gallery .project-info h2 {
 	font-size: 1.8rem;
 	font-weight: 500;
 	margin-top: 10px;
 }
 
-#projects .project-info p {
+#gallery .project-info p {
 	color: white;
 }
 
-#projects .project-img {
+#gallery .project-img {
 	flex-basis: 50%;
 	height: 300px;
 	overflow: hidden;
 	position: relative;
 }
 
-#projects .project-img:after {
+#gallery .project-img:after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -449,15 +449,15 @@ p {
 	opacity: 0.7;
 }
 
-#projects .project-img img {
+#gallery .project-img img {
 	transition: 0.3s ease transform;
 }
 
-#projects .project-item:hover .project-img img {
+#gallery .project-item:hover .project-img img {
 	transform: scale(1.1);
 }
 
-/* End Projects section */
+/* End gallery section */
 
 /* About Section */
 #about .about {
@@ -685,26 +685,26 @@ p {
 	/* End Services Section */
 
 	/* Project */
-	#projects .project-item {
+	#gallery .project-item {
 		flex-direction: row;
 	}
 
-	#projects .project-item:nth-child(even) {
+	#gallery .project-item:nth-child(even) {
 		flex-direction: row-reverse;
 	}
 
-	#projects .project-item {
+	#gallery .project-item {
 		height: 400px;
 		margin: 0;
 		width: 100%;
 		border-radius: 0;
 	}
 
-	#projects .all-projects .project-info {
+	#gallery .all-gallery .project-info {
 		height: 100%;
 	}
 
-	#projects .all-projects .project-img {
+	#gallery .all-gallery .project-img {
 		height: 100%;
 	}
 
