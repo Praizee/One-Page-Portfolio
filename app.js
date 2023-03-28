@@ -26,4 +26,4 @@ menu_item.forEach((item) => {
 
 
 // alert("Make the whole section for the gallery a bit wider, and try to enhance the images.")
-alert("Sorry, I don't have any group pictures (with friends)...🥲🥹")
+// alert("Sorry, I don't have any group pictures (with friends)...🥲🥹")
