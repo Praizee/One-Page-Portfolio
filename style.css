@@ -727,6 +727,7 @@ p {
 		height: 98%;
 		width: 98%;
 		border: 10px solid #01152b;
+		border-radius: 5px;
 	}
 
 	#about .col-right {
@@ -736,6 +737,15 @@ p {
 
 	#about .col-right h1 {
 		text-align: left;
+	}
+
+	.about-img {
+		filter: grayscale(0.2);
+		border-radius: 15px;
+	}
+
+	.about-img:hover {
+		filter: grayscale(0.09);
 	}
 
 	/* End About */
